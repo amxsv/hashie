@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/amxsv/hashie.svg?branch=master)](https://travis-ci.org/amxsv/hashie)
+[![Coverage Status](https://coveralls.io/repos/amxsv/hashie/badge.png)](https://coveralls.io/r/amxsv/hashie)
+[![Code Climate](https://codeclimate.com/github/amxsv/hashie.png)](https://codeclimate.com/github/amxsv/hashie)
 # Hashie
 
 TODO: Write a gem description
