@@ -1,7 +1,7 @@
 require 'test_helper'
 
 # Tests
-class HashieMashTest < MiniTest::Unit::TestCase
+class HashieMashTest < MiniTest::Test
   def setup
     @mash = Hashie::Mash.new
   end
