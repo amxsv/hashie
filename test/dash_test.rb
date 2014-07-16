@@ -31,4 +31,8 @@ class HashieDashTest < MiniTest::Test
   def test_no_method_error
     assert_raises(NoMethodError) { @person.asd }
   end
+
+  def test_required_property
+    assert_raises(ArgumentError) { @not_person = Person.new(name: nil) }
+  end
 end
