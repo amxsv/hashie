@@ -6,11 +6,11 @@ require 'hashie/version'
 Gem::Specification.new do |spec|
   spec.name          = 'hashie'
   spec.version       = Hashie::VERSION
-  spec.authors       = ['Maxim Slepukhov']
-  spec.email         = ['maxtwain73@gmail.com']
-  spec.summary       = ' Write a short summary. Required.'
-  spec.description   = ' Write a longer description. Optional.'
-  spec.homepage      = ''
+  spec.authors       = ['Maxim Slepukhov', 'Ilya Shakirov']
+  spec.email         = ['maxtwain73@gmail.com', 'aelaau@gmail.com']
+  spec.summary       = 'Extended Hash classes '
+  spec.description   = 'Some classes that extends Hash to several features'
+  spec.homepage      = 'http://github.com/amsxv/hashie'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split("\n")
